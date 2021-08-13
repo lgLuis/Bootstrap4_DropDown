@@ -9,30 +9,47 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <div class="site-header">
+    <header class="site-header">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col">
                     <h1 class="align-middle text-center text-lg-left">Aprendiendo BOOTSTRAP 4</h1>
-                        <p class="display-2 text-center text-lg-left">Apreden HTML5 CSS3 JS BOOTSTRAP</p>
+                        <p class="display-2 text-center text-lg-left">Apredeniendo HTML5 CSS3 JS BOOTSTRAP</p>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
     
     <h2 class="lecture-title">DropDowns</h2>
 
     <main class="container">
         <div class="row">
             <div class="col-12">
+                <div class="dropdown">
+                    <a href="#" class="btn btn-info dropdown-toggle text-uppercase" id="progr" 
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                    >
+                        Dias de la semana
+                    </a>
 
+                    <div class="dropdown-menu" aria-labelledby="progr">
+                        <a class="dropdown-item" href="#">Domingo</a>
+                        <a class="dropdown-item" href="#">Lunes</a>
+                        <a class="dropdown-item" href="#">Martes</a>
+                        <a class="dropdown-item" href="#">Miercoles</a>
+                        <a class="dropdown-item" href="#">Jueves</a>
+                        <a class="dropdown-item" href="#">Viernes</a>
+                        <a class="dropdown-item" href="#">Sábado</a>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
 
 
-    <script src="/js/bootstrap.min.js"></script>
     <script src="/js/jquery.slim.js"></script>
     <script src="/js/popper.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/scripts.js"></script>
 </body>
 </html>
